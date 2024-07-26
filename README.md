@@ -10,6 +10,10 @@ Create a conda environment and install all the dependencies using the following 
 pip install -r requirements.txt
 ```
 
+```shell
+python -m spacy download en_core_web_md
+```
+
 ## Dataset 
 Download the data from [link](https://arizonastateu-my.sharepoint.com/:f:/g/personal/nsthaku1_sundevils_asu_edu/EmbzDlO7GodItqzqcYIfOJQByqO1Xz-fW-F_-7qw4letmA?e=Beq1l8) and place it in `data` folder. There are 3 folders for each dataset: 
 - `obj_feat`: The object data for both datasets is downloaded from [1].
