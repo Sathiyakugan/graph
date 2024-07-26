@@ -14,7 +14,13 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_md
 ```
 
-## Dataset 
+## Dataset
+
+These datasets need to be prepared under the folder `data/`.
+
+> For CCD dataset, please refer to the CarCrashDataset Official repo for downloading and deployment.For DAD dataset, you can acquire it from DAD official. The officially provided features are grouped into batches while it is more standard to split them into separate files for training and testing. To this end, you can use the script ./script/split_dad.py.
+
+
 Download the data from [link](https://arizonastateu-my.sharepoint.com/:f:/g/personal/nsthaku1_sundevils_asu_edu/EmbzDlO7GodItqzqcYIfOJQByqO1Xz-fW-F_-7qw4letmA?e=Beq1l8) and place it in `data` folder. There are 3 folders for each dataset: 
 - `obj_feat`: The object data for both datasets is downloaded from [1].
 - `i3d_feat`: We extracted I3D features for all the frames using the code and pretrained model available at [2].
